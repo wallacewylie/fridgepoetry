@@ -10,7 +10,7 @@ document.getElementById('ball2').onmousedown = function() {
     this.onmouseup = function() {
         document.onmousemove = null;
     }
-}
+};
 
 document.getElementById('ball2').ondragstart = function() { return false };
 
